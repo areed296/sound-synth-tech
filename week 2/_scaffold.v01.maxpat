@@ -123,7 +123,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-33"
+						"originid" : "pat-41"
 					}
 ,
 					"patching_rect" : [ 373.0, 377.0, 49.0, 22.0 ],
@@ -141,8 +141,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 399.0, 284.0, 55.0, 22.0 ],
-					"text" : "areed2in"
+					"patching_rect" : [ 399.0, 284.0, 97.0, 22.0 ],
+					"text" : "lg.sound.out.v01"
 				}
 
 			}
@@ -152,24 +152,24 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.0, 222.0, 63.0, 22.0 ],
-					"text" : "areed2out"
+					"patching_rect" : [ 378.0, 222.0, 89.0, 22.0 ],
+					"text" : "lg.sound.in.v01"
 				}
 
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-27",
+		"originid" : "pat-39",
 		"dependency_cache" : [ 			{
-				"name" : "areed2in.maxpat",
-				"bootpath" : "~/Documents",
+				"name" : "lg.sound.in.v01.maxpat",
+				"bootpath" : "~/Desktop/sound-synth-tech/week 2",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "areed2out.maxpat",
-				"bootpath" : "~/Documents",
+				"name" : "lg.sound.out.v01.maxpat",
+				"bootpath" : "~/Desktop/sound-synth-tech/week 2",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
