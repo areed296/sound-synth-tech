@@ -14,6 +14,28 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 348.0, 481.0, 160.0, 22.0 ],
+					"text" : "lg.random.notes.v01.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 352.0, 425.0, 121.0, 22.0 ],
+					"text" : "lg.midi.in.v01.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -123,10 +145,10 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-41"
+						"originid" : "pat-8"
 					}
 ,
-					"patching_rect" : [ 373.0, 377.0, 49.0, 22.0 ],
+					"patching_rect" : [ 371.0, 360.0, 49.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -141,7 +163,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 399.0, 284.0, 97.0, 22.0 ],
+					"patching_rect" : [ 364.0, 301.0, 97.0, 22.0 ],
 					"text" : "lg.sound.out.v01"
 				}
 
@@ -159,8 +181,22 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-39",
+		"originid" : "pat-6",
 		"dependency_cache" : [ 			{
+				"name" : "lg.midi.in.v01.maxpat",
+				"bootpath" : "~/Desktop/sound-synth-tech/week 2",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lg.random.notes.v01.maxpat",
+				"bootpath" : "~/Desktop/sound-synth-tech/week 2",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "lg.sound.in.v01.maxpat",
 				"bootpath" : "~/Desktop/sound-synth-tech/week 2",
 				"patcherrelativepath" : ".",
@@ -175,7 +211,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"oscreceiveudpport" : 0
 	}
 
 }

@@ -10,9 +10,47 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 131.0, 1728.0, 1051.0 ],
+		"rect" : [ 429.0, 119.0, 1727.0, 1052.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 223.0, 170.0, 35.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1085.0, 101.0, 91.0, 22.0 ],
+					"text" : "receive velocity"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.533333, 0.168627, 1.0 ],
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 792.0, 78.0, 76.0, 22.0 ],
+					"text" : "receive pitch"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-57",
 					"maxclass" : "message",
@@ -460,6 +498,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 1 ],
 					"order" : 1,
 					"source" : [ "obj-14", 1 ]
@@ -508,6 +553,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -633,13 +685,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 1 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-26",
+		"originid" : "pat-8",
 		"parameters" : 		{
 			"obj-2" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
