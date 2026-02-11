@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 109.0, 156.0, 1000.0, 780.0 ],
+		"rect" : [ 116.0, 188.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -145,7 +145,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-8"
+						"originid" : "pat-12"
 					}
 ,
 					"patching_rect" : [ 371.0, 360.0, 49.0, 22.0 ],
@@ -183,6 +183,13 @@
 		"lines" : [  ],
 		"originid" : "pat-6",
 		"dependency_cache" : [ 			{
+				"name" : "345836__krzysiunet__im-not-speaking-english.wav",
+				"bootpath" : "~/Desktop/synth-tech-media-master/speech",
+				"patcherrelativepath" : "../../synth-tech-media-master/speech",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "lg.midi.in.v01.maxpat",
 				"bootpath" : "~/Desktop/sound-synth-tech/week 2",
 				"patcherrelativepath" : ".",

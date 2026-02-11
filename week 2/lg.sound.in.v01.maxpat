@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 131.0, 1000.0, 780.0 ],
+		"rect" : [ 147.0, 308.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -86,15 +86,27 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 0,
+					"clipheight" : 91.0,
 					"data" : 					{
-						"clips" : [  ]
+						"clips" : [ 							{
+								"absolutepath" : "/Users/areed2/Desktop/synth-tech-media-master/speech/345836__krzysiunet__im-not-speaking-english.wav",
+								"filename" : "345836__krzysiunet__im-not-speaking-english.wav",
+								"filekind" : "audiofile",
+								"id" : "u335007502",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
 					}
 ,
 					"followglobaltempo" : 0,
 					"formantcorrection" : 0,
 					"id" : "obj-20",
 					"maxclass" : "playlist~",
-					"mode" : 0,
+					"mode" : "basic",
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"originallength" : [ 0 ],
@@ -103,7 +115,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 468.0, 534.0, 150.0, 92.0 ],
 					"pitchcorrection" : 0,
-					"quality" : 0,
+					"quality" : "basic",
 					"saved_attribute_attributes" : 					{
 						"candicane2" : 						{
 							"expression" : ""
@@ -422,9 +434,8 @@
 
 			}
  ],
-		"originid" : "pat-44",
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"originid" : "pat-16",
+		"oscreceiveudpport" : 0
 	}
 
 }
