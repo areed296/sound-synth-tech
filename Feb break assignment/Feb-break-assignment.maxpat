@@ -336,14 +336,14 @@
 		"originid" : "pat-362",
 		"parameters" : 		{
 			"obj-47" : [ "live.tab", "live.tab", 0 ],
-			"obj-48.1::obj-2" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-48.1::obj-37" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
-			"obj-48.2::obj-2" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-48.2::obj-37" : [ "live.gain~[7]", "live.gain~[1]", 0 ],
-			"obj-48.3::obj-2" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-48.3::obj-37" : [ "live.gain~[5]", "live.gain~[1]", 0 ],
-			"obj-48.4::obj-2" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-48.4::obj-37" : [ "live.gain~[4]", "live.gain~[1]", 0 ],
+			"obj-48.1::obj-2" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-48.1::obj-37" : [ "live.gain~[8]", "live.gain~[1]", 0 ],
+			"obj-48.2::obj-2" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-48.2::obj-37" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
+			"obj-48.3::obj-2" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-48.3::obj-37" : [ "live.gain~[3]", "live.gain~[1]", 0 ],
+			"obj-48.4::obj-2" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-48.4::obj-37" : [ "live.gain~[6]", "live.gain~[1]", 0 ],
 			"obj-7" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -356,35 +356,27 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-48.1::obj-2" : 				{
-					"parameter_longname" : "live.gain~[2]"
-				}
-,
-				"obj-48.1::obj-37" : 				{
-					"parameter_longname" : "live.gain~[1]"
-				}
-,
-				"obj-48.2::obj-2" : 				{
-					"parameter_longname" : "live.gain~[8]"
-				}
-,
-				"obj-48.2::obj-37" : 				{
 					"parameter_longname" : "live.gain~[7]"
 				}
 ,
+				"obj-48.1::obj-37" : 				{
+					"parameter_longname" : "live.gain~[8]"
+				}
+,
 				"obj-48.3::obj-2" : 				{
-					"parameter_longname" : "live.gain~[6]"
+					"parameter_longname" : "live.gain~[4]"
 				}
 ,
 				"obj-48.3::obj-37" : 				{
-					"parameter_longname" : "live.gain~[5]"
-				}
-,
-				"obj-48.4::obj-2" : 				{
 					"parameter_longname" : "live.gain~[3]"
 				}
 ,
+				"obj-48.4::obj-2" : 				{
+					"parameter_longname" : "live.gain~[5]"
+				}
+,
 				"obj-48.4::obj-37" : 				{
-					"parameter_longname" : "live.gain~[4]"
+					"parameter_longname" : "live.gain~[6]"
 				}
 
 			}
