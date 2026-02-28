@@ -2,41 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 1,
-			"revision" : 0,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 107.0, 79.0, 810.0, 648.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 134.0, 159.0, 810.0, 648.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontface" : 1,
@@ -74,41 +49,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 0,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 332.0, 209.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.0, 0.533333, 0.168627, 1.0 ],
@@ -163,7 +113,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 13.0, 41.0, 79.0, 22.0 ],
 									"text" : "random 1000"
 								}
@@ -239,6 +189,7 @@
 
 							}
  ],
+						"originid" : "pat-48",
 						"styles" : [ 							{
 								"name" : "ksliderWhite",
 								"default" : 								{
@@ -252,13 +203,13 @@
 								"name" : "messageBlue",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.660494,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 
 								}
@@ -314,8 +265,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -326,10 +277,7 @@
 ,
 					"patching_rect" : [ 633.0, 222.5, 141.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p voice.trigger.simulation"
@@ -362,13 +310,15 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 320 ],
-							"parameter_shortname" : "sustain",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
+							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "sustain",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1500.0
+							"parameter_mmax" : 1500.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "sustain",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -389,13 +339,15 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 230 ],
-							"parameter_shortname" : "decay",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
+							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "decay",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1500.0
+							"parameter_mmax" : 1500.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "decay",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -440,13 +392,15 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 950 ],
-							"parameter_shortname" : "release",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
+							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "release",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1500.0
+							"parameter_mmax" : 1500.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "release",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -467,13 +421,15 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
-							"parameter_shortname" : "attack",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
+							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "attack",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1500.0
+							"parameter_mmax" : 1500.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "attack",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -494,13 +450,15 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 500 ],
-							"parameter_shortname" : "duration",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
+							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "duration",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1500.0
+							"parameter_mmax" : 1500.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "duration",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -566,7 +524,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 104.5, 334.0, 56.0, 22.0 ],
-					"text" : "1 6500"
+					"text" : "5 1300"
 				}
 
 			}
@@ -595,41 +553,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 0,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 464.0, 232.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -698,7 +631,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 125.0, 50.5, 66.0, 22.0 ],
 									"text" : "random 80"
 								}
@@ -809,6 +742,7 @@
 
 							}
  ],
+						"originid" : "pat-50",
 						"styles" : [ 							{
 								"name" : "ksliderWhite",
 								"default" : 								{
@@ -822,13 +756,13 @@
 								"name" : "messageBlue",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.660494,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 
 								}
@@ -884,8 +818,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -896,10 +830,7 @@
 ,
 					"patching_rect" : [ 21.5, 306.5, 139.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p data.stream.simulation"
@@ -916,63 +847,63 @@
 							}
 , 							{
 								"key" : 1,
-								"value" : [ 6500 ]
+								"value" : [ 1200 ]
 							}
 , 							{
 								"key" : 2,
-								"value" : [ 1300 ]
+								"value" : [ 4300 ]
 							}
 , 							{
 								"key" : 3,
-								"value" : [ 5700 ]
+								"value" : [ 5100 ]
 							}
 , 							{
 								"key" : 4,
-								"value" : [ 5900 ]
+								"value" : [ 4000 ]
 							}
 , 							{
 								"key" : 5,
-								"value" : [ 4800 ]
+								"value" : [ 1300 ]
 							}
 , 							{
 								"key" : 6,
-								"value" : [ 6300 ]
+								"value" : [ 3300 ]
 							}
 , 							{
 								"key" : 7,
-								"value" : [ 4200 ]
+								"value" : [ 7700 ]
 							}
 , 							{
 								"key" : 8,
-								"value" : [ 4400 ]
+								"value" : [ 6800 ]
 							}
 , 							{
 								"key" : 9,
-								"value" : [ 800 ]
+								"value" : [ 4800 ]
 							}
 , 							{
 								"key" : 10,
-								"value" : [ 6700 ]
+								"value" : [ 2900 ]
 							}
 , 							{
 								"key" : 11,
-								"value" : [ 6500 ]
+								"value" : [ 3300 ]
 							}
 , 							{
 								"key" : 12,
-								"value" : [ 5600 ]
+								"value" : [ 500 ]
 							}
 , 							{
 								"key" : 13,
-								"value" : [ 6300 ]
+								"value" : [ 900 ]
 							}
 , 							{
 								"key" : 14,
-								"value" : [ 6400 ]
+								"value" : [ 1300 ]
 							}
 , 							{
 								"key" : 15,
-								"value" : [ 4500 ]
+								"value" : [ 7000 ]
 							}
  ]
 					}
@@ -985,7 +916,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 21.5, 369.0, 165.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 1,
+						"precision" : 6
 					}
 ,
 					"text" : "coll data.inside.all.poly.voices"
@@ -1222,41 +1154,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 0,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 153.0, 145.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1336,15 +1243,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-52"
 					}
 ,
 					"patching_rect" : [ 297.0, 153.5, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p mute.busy"
@@ -1413,6 +1318,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "z.credits.v01.bp.maxpat",
 					"numinlets" : 0,
@@ -1537,42 +1443,44 @@
 
 			}
  ],
+		"originid" : "pat-46",
 		"parameters" : 		{
-			"obj-116" : [ "release", "release", 0 ],
-			"obj-119" : [ "sustain", "sustain", 0 ],
-			"obj-115" : [ "attack", "attack", 0 ],
 			"obj-114" : [ "duration", "duration", 0 ],
+			"obj-115" : [ "attack", "attack", 0 ],
+			"obj-116" : [ "release", "release", 0 ],
 			"obj-117" : [ "decay", "decay", 0 ],
+			"obj-119" : [ "sustain", "sustain", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "z.credits.v01.bp.maxpat",
-				"bootpath" : "~/Documents/Semester 05/CUNY/proposal/new.tutorial.patches/tutorial.01.bach.poly~",
+				"name" : "scaffold.polyCore.maxpat",
+				"bootpath" : "~/Desktop/sound-synth-tech/week.4",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.CMC-logo300dpi.2x.gif",
-				"bootpath" : "~/Documents/Semester 05/CUNY/proposal/new.tutorial.patches/tutorial.01.bach.poly~",
+				"bootpath" : "~/Desktop/sound-synth-tech/week.4",
 				"patcherrelativepath" : ".",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.by-sa.2x.png",
-				"bootpath" : "~/Documents/Semester 05/CUNY/proposal/new.tutorial.patches/tutorial.01.bach.poly~",
+				"bootpath" : "~/Desktop/sound-synth-tech/week.4",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "scaffold.polyCore.maxpat",
-				"bootpath" : "~/Documents/Semester 05/CUNY/proposal/new.tutorial.patches/tutorial.01.bach.poly~",
+				"name" : "z.credits.v01.bp.maxpat",
+				"bootpath" : "~/Desktop/sound-synth-tech/week.4",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1592,13 +1500,13 @@
 				"name" : "messageBlue",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.660494,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 
 				}
@@ -1654,8 +1562,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
