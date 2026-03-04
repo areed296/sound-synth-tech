@@ -14,17 +14,6 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 373.0, 546.0, 184.0, 22.0 ],
-					"text" : "lg.Feb-break-assignment.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -156,7 +145,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-383"
+						"originid" : "pat-30"
 					}
 ,
 					"patching_rect" : [ 371.0, 360.0, 49.0, 22.0 ],
@@ -175,7 +164,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 364.0, 301.0, 97.0, 22.0 ],
-					"text" : "lg.sound.out.v01"
+					"text" : "lg.sound.out.v02"
 				}
 
 			}
@@ -192,7 +181,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-377",
+		"originid" : "pat-24",
 		"dependency_cache" : [ 			{
 				"name" : "345836__krzysiunet__im-not-speaking-english.wav",
 				"bootpath" : "~/Desktop/synth-tech-media-master/speech",
@@ -222,7 +211,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lg.sound.out.v01.maxpat",
+				"name" : "lg.sound.out.v02.maxpat",
 				"bootpath" : "~/Desktop/sound-synth-tech/week 2",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
